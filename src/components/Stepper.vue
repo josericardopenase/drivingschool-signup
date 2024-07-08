@@ -65,7 +65,7 @@ const active = ref(0)
       </div>
     </div>
     <div class="pl-[340px] w-full flex justify-center items-center  z-20">
-      <div class="w-full max-w-[900px] mt-40">
+      <div class="w-full max-w-[900px] mt-40 mb-20">
         <component :is="steps[active].component"></component>
         <div class="w-full flex justify-center gap-3 mt-20">
           <div class="w-full flex justify-center gap-3 max-w-[500px]">
